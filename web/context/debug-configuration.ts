@@ -66,7 +66,7 @@ const DebugConfigurationContext = createContext<IDebugConfiguration>({
   query: '',
   setQuery: () => { },
   completionParams: {
-    max_tokens: 16,
+    max_tokens: 100,
     temperature: 1, // 0-2
     top_p: 1,
     presence_penalty: 1, // -2-2

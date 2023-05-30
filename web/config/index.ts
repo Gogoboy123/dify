@@ -73,7 +73,7 @@ export const TONE_LIST = [
 
 export const LOCALE_COOKIE_NAME = 'locale'
 
-export const DEFAULT_VALUE_MAX_LEN = 48
+export const DEFAULT_VALUE_MAX_LEN = 250
 
 export const zhRegex = /^[\u4e00-\u9fa5]$/m
 export const emojiRegex = /^[\uD800-\uDBFF][\uDC00-\uDFFF]$/m
